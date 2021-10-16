@@ -1,0 +1,143 @@
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    height: 100%;
+    place-items: center;
+}
+.myclass1
+{
+   margin-top: 15vh; 
+}
+.myclass2
+{
+   margin-top: 15vh;
+   margin-bottom: 10vh; 
+}
+.myclass3
+{
+   margin-top: 10vh;
+   margin-bottom: 10vh; 
+}
+.myclass4
+{
+   margin-bottom: 10vh; 
+}
+.bold
+{
+    font-weight: bolder;
+    font-family:cursive;
+}
+#new
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+span
+{
+    color: rgb(6, 148, 153);
+}
+.footer
+{
+    display: flex;
+    place-content: center;
+    margin-top: auto;
+    color: white;
+    width: 100%;
+    line-height:4vh;
+    font-size: 14px;
+    
+    background-color:rgb(10, 10, 10);
+}
+.image
+{
+    margin-top: 15vh;
+    width: 300px;
+    height: 400px;
+}
+#inp
+{
+    width: 45%;
+    height: 40px;
+    margin-top: 10vh;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid black;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    font-weight: bolder;
+}
+#inpbtn
+{
+    width: 120px;
+    margin-top: 10vh;
+    margin-left: -10px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    border: 1px solid black;
+    background:linear-gradient(-45deg,rgb(83, 83, 202),pink);
+    color: white;
+}
+#inpbtn:hover
+{
+    background:linear-gradient(45deg,rgb(83, 83, 202),pink);
+}
+#main1
+{
+    background-color:rgb(23, 23, 24);
+    width: 45%;
+    height: 35vh;
+    margin-top: 7vh;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+}
+#main2
+{
+    width: 45%;
+    background:linear-gradient(-45deg,rgb(83, 83, 202),pink);
+    height:auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+}
+
+#icon
+{
+    margin-top: -20px;
+    font-size: 70px;
+    margin-bottom: -2px;
+}
+#city
+{
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.temperature
+{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+#atm
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.fa-bahai
+{
+    color: violet;
+    font-size: 21px;
+}
